@@ -2,14 +2,22 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: 'var(--color-navy)', color: 'var(--color-gray)', padding: '2rem 0', marginTop: 'auto' }}>
-      <div className="container text-center">
-        <p>&copy; {new Date().getFullYear()} BFitIT. All rights reserved.</p>
-        <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginTop: '1rem' }}>
-          <a href="#" style={{ color: 'var(--color-gray)' }}>Privacy Policy</a>
-          <a href="#" style={{ color: 'var(--color-gray)' }}>Terms of Service</a>
-          <a href="#" style={{ color: 'var(--color-gray)' }}>Contact</a>
+    <footer style={{ backgroundColor: '#F0995F', padding: '32px 40px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '24px' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#1A1D2D', fontWeight: 'bold', fontSize: '18px' }}>
+        <div style={{ width: 24, height: 24, borderRadius: '50%', backgroundColor: '#347562', display: 'flex', justifyContent: 'center', alignItems: 'center', color: 'white' }}>
+          <span style={{ fontSize: '10px' }}>⚡</span>
         </div>
+        InnerTrace
+      </div>
+      
+      <div style={{ color: '#1A1D2D', fontSize: '13px', fontWeight: '500' }}>
+        © 2026 InnerTrace. Your AI-Powered Wellness Companion.
+      </div>
+
+      <div style={{ display: 'flex', gap: '24px', fontSize: '13px', fontWeight: '600', color: '#1A1D2D' }}>
+        <a href="#" style={{ textDecoration: 'none', color: 'inherit' }}>Privacy</a>
+        <a href="#" style={{ textDecoration: 'none', color: 'inherit' }}>Terms</a>
+        <a href="#" style={{ textDecoration: 'none', color: 'inherit' }}>Contact</a>
       </div>
     </footer>
   );

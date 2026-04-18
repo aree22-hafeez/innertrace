@@ -83,7 +83,7 @@ const SignIn = () => {
 
   const submitBtnStyle = {
     width: '100%',
-    backgroundColor: '#8B8E9D', // Matches the exact purple/gray from the design
+    backgroundColor: '#8B8E9D', 
     color: '#FFFFFF',
     border: 'none',
     borderRadius: '24px',
@@ -143,7 +143,7 @@ const SignIn = () => {
     color: '#808291'
   };
 
-  // Basic Google Icon SVG
+  
   const GoogleIcon = () => (
     <svg width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#1A1D2D"/>
@@ -153,7 +153,7 @@ const SignIn = () => {
     </svg>
   );
 
-  // Basic Apple Icon SVG
+  
   const AppleIcon = () => (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="#1A1D2D" xmlns="http://www.w3.org/2000/svg">
       <path d="M16.63 11.23C16.66 14.39 19.34 15.4 19.37 15.41C19.34 15.5 18.91 16.94 17.88 18.42C16.99 19.7 16.03 20.97 14.59 20.99C13.16 21.02 12.69 20.14 11.08 20.14C9.46 20.14 8.95 20.99 7.57 21.02C6.18 21.05 5.09 19.62 4.19 18.33C2.33 15.65 0.94 10.95 2.85 7.68C3.8 6.06 5.48 5.02 7.33 5.02C8.71 5.02 9.99 5.95 10.83 5.95C11.66 5.95 13.2 4.86 14.86 4.86C15.49 4.86 17.26 4.92 18.44 6.64C18.35 6.7 16.6 7.7 16.63 11.23V11.23Z" />
@@ -168,7 +168,7 @@ const SignIn = () => {
         <h1 style={titleStyle}>Welcome Back</h1>
         <p style={subtitleStyle}>Sign in to continue your wellness journey</p>
 
-        <form style={{ width: '100%' }} onSubmit={(e) => { e.preventDefault(); navigate('/'); }}>
+        <form style={{ width: '100%' }} onSubmit={(e) => { e.preventDefault(); navigate('/home'); }}>
           
           <div style={inputGroupStyle}>
             <label style={labelStyle}>Email</label>
