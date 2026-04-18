@@ -14,7 +14,7 @@ const Landing = () => {
           <div style={{ width: 24, height: 24, borderRadius: '50%', backgroundColor: '#347562', display: 'flex', justifyContent: 'center', alignItems: 'center', color: 'white' }}>
             <span style={{ fontSize: '10px' }}>⚡</span>
           </div>
-          BFitIT
+          Innertrace
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '24px' }}>
           <button onClick={() => navigate('/signin')} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#1A1D2D', fontWeight: '500', fontSize: '15px' }}>
@@ -116,7 +116,7 @@ const Landing = () => {
               Built for <span style={{ color: '#347562' }}>Every</span><span style={{ color: '#F0995F' }}>one</span>
             </h2>
             <p style={{ color: '#5C5F68', fontSize: '16px', lineHeight: '1.6', margin: '0 0 32px 0' }}>
-              Whether you're a stressed student, busy professional, or looking for a free wellness solution, BFitIT adapts to your needs.
+              Whether you're a stressed student, busy professional, or looking for a free wellness solution, InnerTrace adapts to your needs.
             </p>
 
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '32px' }}>
@@ -177,7 +177,7 @@ const Landing = () => {
         textAlign: 'center'
       }}>
         <h2 style={{ fontSize: '36px', fontWeight: '800', margin: '0 0 16px 0', color: '#1A1D2D' }}>Ready to Transform Your<br/>Wellness?</h2>
-        <p style={{ color: '#5C5F68', fontSize: '16px', marginBottom: '40px' }}>Join thousands of users who are already on their wellness journey with BFitIT.</p>
+        <p style={{ color: '#5C5F68', fontSize: '16px', marginBottom: '40px' }}>Join thousands of users who are already on their wellness journey with InnerTrace.</p>
         
         <div style={{ display: 'flex', justifyContent: 'center', gap: '16px' }}>
           <button onClick={() => navigate('/signup')} style={{ backgroundColor: '#347562', color: 'white', border: 'none', borderRadius: '30px', padding: '16px 32px', fontSize: '16px', fontWeight: '600', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -195,11 +195,11 @@ const Landing = () => {
           <div style={{ width: 24, height: 24, borderRadius: '50%', backgroundColor: '#347562', display: 'flex', justifyContent: 'center', alignItems: 'center', color: 'white' }}>
             <span style={{ fontSize: '10px' }}>⚡</span>
           </div>
-          BFitIT
+          InnerTrace
         </div>
         
         <div style={{ color: '#1A1D2D', fontSize: '13px', fontWeight: '500' }}>
-          © 2026 BFitIT. Your AI-Powered Wellness Companion.
+          © 2026 InnerTrace. Your AI-Powered Wellness Companion.
         </div>
 
         <div style={{ display: 'flex', gap: '24px', fontSize: '13px', fontWeight: '600', color: '#1A1D2D' }}>
